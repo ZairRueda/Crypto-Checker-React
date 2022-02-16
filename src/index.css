@@ -1,0 +1,20 @@
+:root {
+
+  /* Red = 0 , Yellow = 60, Green = 120, Cyan = 180 , Blue = 240 , Magenta = 300 */
+  --principal: 209;
+
+  --colorDestacado: hsl(var(--principal), 61%, 13%);
+  --colorDestacadoOscuro: hsl(var(--principal), 91%, 35%);
+  --colorDestacadoOscuroHover: hsl(var(--principal), 91%, 25%);
+  --blanco: hsl(var(--principal), 0%, 100%);
+  --gris-claro: hsl(var(--principal), 0%, 96%);
+  --gris: hsl(var(--principal), 20%, 65%);
+  --gris-oscuro: hsl(var(--principal), 16%, 47%);
+  --negro: hsl(var(--principal), 0%, 0%);
+
+  --colorError: #ff7b7b;
+}
+
+body {
+  background-color: var(--colorDestacado);
+}
